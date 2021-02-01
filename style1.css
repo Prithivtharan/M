@@ -1,0 +1,176 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    body{
+    background:white;
+    height:100px;
+    width:1400px;
+    }
+    
+    #header{
+    background:rgb(4, 230, 61);
+    height:200px;
+    width:1600px;
+     }
+    #nav{
+    background:black;
+    height:30px;
+    width:1600px;
+    font-family:Matura MT Script Capitals;
+    }
+    
+    #para{
+    padding:40px;
+    line-break: auto;
+    color: rgb(60, 22, 175);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    }
+    
+    #nav{
+    background:black;
+    height:30px;
+    width:1600px;
+    font-family:Matura MT Script Capitals;
+    }
+    
+    #container{
+    background:white;
+    height:640px;
+    width:100%;
+    }
+    
+    #navul li{
+    list-style-type:none;
+    display:inline;
+    padding-left:15px;
+    padding-right:15px;
+    line-height:30px;
+    }
+    
+    #navul li a,#lful li a{
+    text-decoration:none;
+    color:white;
+    }
+    
+    iframe{
+    height:200px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    }
+    
+    #logotxt{
+    width:25%;
+    height:100%;
+    float:left;
+    }
+    
+    #logo{
+    width:75%;
+    height:100%;
+    float:right;
+    }
+        
+    #logotxt h1{
+    color:red;
+    font-family:Algerian;
+    padding-top:40px;
+    text-align:center;
+    }
+        
+    #imglogo{
+    border-radius: 20px;
+    padding-left:250px;
+    height:200px;
+    width:300px;
+    }
+        
+    #user_login{
+    min-height:250px;
+    width:500px;
+    margin-left:150px;
+    margin-top:25px;
+    border-radius:5px;
+    border:1px solid orange;
+    }
+        
+    #user_login legend{
+    margin-left:25px;
+    font-size:15px;
+    color:black;
+    }
+    
+    #user_table{
+    margin:50px;
+    font-size:18px;
+    }
+    
+    #user_table tr td{
+    padding:15px;	
+    }
+    
+    #user_table a:hover{
+    color:red;
+    text-decoration:underline;
+    }
+    
+    #user_table input[type="text"],input[type="password"]{
+    width:200px;
+    height:25px;
+    border-radius:5px;
+    font-size:18px;
+    color:blue;
+    }
+    
+    #user_table input[type="submit"],input[type="reset"]{
+    width:100px;
+    height:30px;
+    border-radius:5px;
+    font-size:18px;
+    color:blue;
+     }
+    
+    #footer {
+    font-size: larger;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 7, 7);
+    text-align: center;
+    }
+    
+    
+    #preloder{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        z-index: 99; 
+    }
+    
+    
+    #status{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-image: url(lode.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: -100px 0 0 -100px;
+    }
+
+    #im{
+        width:800px; 
+        height:450px;
+    }
+
+    h1{
+        text-align: center;
+    }

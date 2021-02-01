@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <script src="jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(window).on('load',function() {
+            $('#status').fadeOut();
+            $('#preloder').delay(550).fadeOut('slower');
+        });
+    });
+</script>
+</head>
+<body>
+<div id="header">
+<div id="logotxt">
+<h1>Sample</h1>
+</div>
+<div id="logo">
+<img src="tr.jpg"id="imglogo">
+</div>
+</div>
+<div id="nav">
+<center>
+<ul id="navul">
+<li><a href="home.html">Home</a></li>
+<li><a href="forums.html">Forums</a></li>
+<li><a href="image.html">Images</a></li>
+<li><a href="videos.html">Videos</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="sign in.html">Sign in</a></li>
+</ul>
+</center>
+</div>
+<h1>PreLoder</h1>
+<div id="preloder">
+<h1>PreLoder</h1>
+<div id="status">&nbsp;</div>
+</div>
+<img id="im" src="sample.jpg">
+<div id="footer">
+    <p> Copyright 2020 & copy by Prithiv</p>
+    </div> 
+</body>
+</html>
